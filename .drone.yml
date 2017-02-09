@@ -6,5 +6,5 @@ build:
     run_test:
             image: python:2-alpine      
     commands:    
-            -pip install -r requirements.txt
-            -python testing.py
+            - pip install -r requirements.txt
+            - python testing.py
